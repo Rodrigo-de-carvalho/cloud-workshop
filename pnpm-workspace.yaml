@@ -1,8 +1,6 @@
 packages:
-  - .
+  - "."
 
-# pnpm 10.11 (Cloudflare build image) uses onlyBuiltDependencies.
 onlyBuiltDependencies:
   - esbuild
   - workerd
-
